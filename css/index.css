@@ -1,4 +1,50 @@
+/* start header */
 
+.z_index {
+    z-index: 99999;
+}
+
+/* end heaeder */
+
+/* start main_1 */
+
+.main_1_content_right {
+    position: relative;
+}
+
+.main_1_content_right .item_right_1 {
+    position: absolute;
+    top: 10%;
+    left: -10%;
+    z-index: 1;
+}
+
+.main_1_content_right .item_right_2 {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    z-index: 2;
+}
+
+.main_1_content_right .item_right_3 {
+    position: absolute;
+    bottom: -2%;
+    left: 20%;
+    z-index: 2;
+}
+
+.main_1_content_right .item_right_4 {
+    position: absolute;
+}
+
+/* .main_1_content_right .item_right_5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+} */
+
+/* end main_1 */
 
 /* features */
 

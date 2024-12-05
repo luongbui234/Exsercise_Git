@@ -1,157 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <!-- font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Boostrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
-    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- flowbite -->
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
 
     <!-- main Css -->
-    <link rel="stylesheet" href="../css/demo.css">
+    <link rel="stylesheet" href="../css/demo.css" />
 
-
-</head>
-<body class="bg-white">
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body class="bg-white">
     <!-- header (Luong) -->
-    <header>
-        <nav class="p-4 flex justify-between">
-            <div class="flex">
-                <img id="logo" src="./img/logo-light.svg" alt="lg" class="mr-60">
-                <ul class="flex items-center gap-x-10">
-                    <li>
-                        <a href="#" class="hover:no-underline active text-black">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:no-underline text-black">Features</a>
-                    </li>
-                    <li id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover"
-                    class="inline-flex items-center">
-                    <a href="#"  class="hover:no-underline text-black">Pages</a>
-                    <!-- Dropdown menu -->
-                    <div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg">
-                        <ul class="py-2 text-sm text-black" aria-labelledby="dropdownHoverButton">
-                            <li>
-                                <a href="#" class="block px-4 py-2  hover:text-blue-700 hover:no-underline">Blog Grid</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block px-4 py-2 hover:text-blue-700  hover:no-underline">Blog Single</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block px-4 py-2 hover:text-blue-700  hover:no-underline">Sign In</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block px-4 py-2 hover:text-blue-700  hover:no-underline">Sign Up</a>
-                            </li>
-                            <li>
-                                <a href="#" class="block px-4 py-2 hover:text-blue-700  hover:no-underline">404</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <i class="fa fa-angle-down cursor-pointer"></i>
-                </li>
-                <li>
-                    <a href="#" class="hover:no-underline text-black">Support</a>
-                </li>
-            </ul>
-            </div>
-            
-            <div class="flex gap-x-3 items-center hover:cursor-pointer">
-                <i id="dm" class="fa fa-sun text-3xl text-black"></i>
-                <button class="text-black px-4 py-2">Sign In</button>
-                <button class="bg-white text-black px-4 py-2">Sign Up</button>
-            </div>
-        </nav>
-    </header>
-    
-    <br><br><br><br><br><br><br><br><br><br>
-    
-    <!-- footer (Nam) -->
-    <div class="footer ">
-        
-        <div class="footer__top">
-            <div class="row">
-                <div class="col">
-                    <img src="https://base-tailwind.preview.uideck.com/images/logo-light.svg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-linkedin-in"></i>
-                    <i class="fab fa-behance"></i>
-                </div>
-                <div class="col">
-                    <h2 >Quick Links</h2>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">Careers <span>Hiring</span></a></li>
-                        <li><a href="#">Pricing</a></li>
-                    </ul>
-                </div>
-                <div class="col number1">
-                    <h2>Services</h2>
-                    <ul>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Graphics Design</a></li>
-                        <li><a href="#">Digital Marketing</a></li>
-                        <li><a href="#">Ui/Ux Design</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h2>Support</h2>
-                    <ul>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Press media</a></li>
-                        <li><a href="#">Our Blog</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h2>Newsletter</h2>
-                    <p>Subscribe to receive future updates</p>
-                    <input type="text" placeholder="Email Adress"> 
-                </div>
+    <header class="fixed w-full z_index">
+      <nav class="p-4 flex justify-between">
+        <div class="flex">
+          <img id="logo" src="./img/logo-light.svg" alt="lg" class="mr-60" />
+          <ul class="flex items-center gap-x-10">
+            <li>
+              <a href="#" class="hover:no-underline active text-black">Home</a>
+            </li>
+            <li>
+              <a href="#" class="hover:no-underline text-black">Features</a>
+            </li>
+            <li
+              id="dropdownHoverButton"
+              data-dropdown-toggle="dropdownHover"
+              data-dropdown-trigger="hover"
+              class="inline-flex items-center"
+            >
+              <a href="#" class="hover:no-underline text-black">Pages</a>
+              <!-- Dropdown menu -->
+              <div
+                id="dropdownHover"
+                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg"
+              >
+                <ul
+                  class="py-2 text-sm text-black"
+                  aria-labelledby="dropdownHoverButton"
+                >
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >Blog Grid</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >Blog Single</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >Sign In</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >Sign Up</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >404</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <i class="fa fa-angle-down cursor-pointer"></i>
+            </li>
+            <li>
+              <a href="#" class="hover:no-underline text-black">Support</a>
+            </li>
+          </ul>
+        </div>
 
-            </div>
+        <div class="flex gap-x-3 items-center hover:cursor-pointer">
+          <i id="dm" class="fa fa-sun text-3xl text-black"></i>
+          <button class="text-black px-4 py-2">Sign In</button>
+          <button class="text-black px-4 py-2 bg-blue-500 rounded-xl">Sign Up</button>
         </div>
-        <div class="footer__bot d-flex justify-content-between container-fluid">
-            <div class="footer__left d-flex">
-                <h3>English</h3>
-                <h3>Privacy Policy</h3>
-                <h3>Support</h3>
-            </div>
-            <div class="footer__right">
-                <p>© 2025 Base. All rights reserved</p>
-            </div>
+      </nav>
+    </header>
+
+    <!-- main_1 (Luong)-->
+    <section class="py-32 flex">
+      <div class="content__left w-1/2 ml-20">
+        <h1 class="text-5xl font-bold">
+          We specialize in UI/UX, Web <br />
+          Development, Digital <br />
+          Marketing.
+        </h1>
+        <p class="my-6">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+          obcaecati dolores delectus sequi minus saepe natus minima totam nemo
+          molestiae, tempore omnis quibusdam in assumenda ex beatae expedita
+          odit corporis, dolore ullam neque voluptatibus repellendus voluptatem.
+          Temporibus odit nam minima, ut commodi earum iure ipsum ratione. Rem
+          ut at facere!
+        </p>
+        <div class="flex gap-x-10">
+          <button class="bg-blue-500 text-white px-5 py-4 rounded-3xl">
+            Get Started Now
+          </button>
+          <div class="flex-col">
+            <a href="#" class="text-xl font-bold"> Call us (0123) 456 – 789 </a>
+            <p>For any question or concern</p>
+          </div>
         </div>
+      </div>
+      <div class="content-right main_1_content_right">
+        <img src="./img/shape-01.svg" alt="shape" class="item_right_1">
+        <img src="./img/shape-02.svg" alt="shape" class="item_right_2">
+        <img src="./img/shape-03.svg" alt="shape" class="item_right_3">
+        <img src="./img/shape-04.svg" alt="shape">
+        <!-- <img src="./img/hero.png" alt="women" class="item_right_4"> -->
+      </div>
+    </section>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- footer (Nam) -->
+    <div class="footer">
+      <div class="footer__top">
+        <div class="row">
+          <div class="col">
+            <img
+              src="https://base-tailwind.preview.uideck.com/images/logo-light.svg"
+              alt=""
+            />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-behance"></i>
+          </div>
+          <div class="col">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li>
+                <a href="#">Careers <span>Hiring</span></a>
+              </li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="col number1">
+            <h2>Services</h2>
+            <ul>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Graphics Design</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Ui/Ux Design</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Support</h2>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Press media</a></li>
+              <li><a href="#">Our Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Newsletter</h2>
+            <p>Subscribe to receive future updates</p>
+            <input type="text" placeholder="Email Adress" />
+          </div>
+        </div>
+      </div>
+      <div class="footer__bot d-flex justify-content-between container-fluid">
+        <div class="footer__left d-flex">
+          <h3>English</h3>
+          <h3>Privacy Policy</h3>
+          <h3>Support</h3>
+        </div>
+        <div class="footer__right">
+          <p>© 2025 Base. All rights reserved</p>
+        </div>
+      </div>
     </div>
 
-
     <!-- Thư viện jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <!-- Boostrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- flowbite -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 
     <script src="./index.js"></script>
-    
-</body>
+  </body>
 </html>
