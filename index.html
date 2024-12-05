@@ -24,8 +24,125 @@
 
 </head>
 <body>
-    
+        <!-- header (Luong) -->
+    <header class="fixed w-full z_index">
+      <nav class="p-4 flex justify-between">
+        <div class="flex">
+          <img id="logo" src="./img/logo-light.svg" alt="lg" class="mr-60" />
+          <ul class="flex items-center gap-x-10">
+            <li>
+              <a href="#" class="hover:no-underline active text-black">Home</a>
+            </li>
+            <li>
+              <a href="#" class="hover:no-underline text-black">Features</a>
+            </li>
+            <li
+              id="dropdownHoverButton"
+              data-dropdown-toggle="dropdownHover"
+              data-dropdown-trigger="hover"
+              class="inline-flex items-center"
+            >
+              <a href="#" class="hover:no-underline text-black">Pages</a>
+              <!-- Dropdown menu -->
+              <div
+                id="dropdownHover"
+                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg"
+              >
+                <ul
+                  class="py-2 text-sm text-black"
+                  aria-labelledby="dropdownHoverButton"
+                >
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >Blog Grid</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >Blog Single</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >Sign In</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >Sign Up</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:text-blue-700 hover:no-underline"
+                      >404</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <i class="fa fa-angle-down cursor-pointer"></i>
+            </li>
+            <li>
+              <a href="#" class="hover:no-underline text-black">Support</a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="flex gap-x-3 items-center hover:cursor-pointer">
+          <i id="dm" class="fa fa-sun text-3xl text-black"></i>
+          <button class="text-black px-4 py-2">Sign In</button>
+          <button class="text-black px-4 py-2 bg-blue-500 rounded-xl">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main_1 (Luong)-->
+    <section class="py-32 flex">
+      <div class="content__left w-1/2 ml-20">
+        <h1 class="text-5xl font-bold">
+          We specialize in UI/UX, Web <br />
+          Development, Digital <br />
+          Marketing.
+        </h1>
+        <p class="my-6">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+          obcaecati dolores delectus sequi minus saepe natus minima totam nemo
+          molestiae, tempore omnis quibusdam in assumenda ex beatae expedita
+          odit corporis, dolore ullam neque voluptatibus repellendus voluptatem.
+          Temporibus odit nam minima, ut commodi earum iure ipsum ratione. Rem
+          ut at facere!
+        </p>
+        <div class="flex gap-x-10">
+          <button class="bg-blue-500 text-white px-5 py-4 rounded-3xl">
+            Get Started Now
+          </button>
+          <div class="flex-col">
+            <a href="#" class="text-xl font-bold"> Call us (0123) 456 – 789 </a>
+            <p>For any question or concern</p>
+          </div>
+        </div>
+      </div>
+      <div class="content-right main_1_content_right">
+        <img src="./img/shape-01.svg" alt="shape" class="item_right_1">
+        <img src="./img/shape-02.svg" alt="shape" class="item_right_2">
+        <img src="./img/shape-03.svg" alt="shape" class="item_right_3">
+        <img src="./img/shape-04.svg" alt="shape">
+        <!-- <img src="./img/hero.png" alt="women" class="item_right_4"> -->
+      </div>
+    </section>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- footer (Nam) -->
      <!-- Features -->
      <section class="features mx-44 my-20">
         <div class="features__content flex">
