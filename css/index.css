@@ -2,44 +2,45 @@
 
 /* features */
 
+.features__item img{
+    border-radius: 9999px;    
+}
+
+.features__item h2{
+    padding-bottom: 0.625rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.features__item p{
+    color: #79808a;
+}
+
+.features__caption{
+    padding-left: 25px;
+}
 
 
 
+/* Team Start */
 
+.team__caption{
+    position: absolute;
+}
 
+.team__caption{
+    position: relative;
+    top: -600px;
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.team__caption h3{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    margin-bottom: 1.125rem;
+}
 
 
 
